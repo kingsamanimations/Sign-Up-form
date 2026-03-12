@@ -10,6 +10,7 @@ h1 {
 body {
     margin: 0;
     padding: 0;
+    font-family: my-cool-font, sans-serif;
 }
 
 main {
@@ -27,22 +28,103 @@ main {
     background-size: cover;
     color: white;
     font-family: my-cool-font, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .right {
     display: flex;
     flex-direction: column;
-
+    background-color: rgba(128, 128, 128, 0.192);
+    width: 65vw;
 }
 
 .first {
-    height: 40vh;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-start;
+    font-family: my-cool-font, sans-serif;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .second {
-    height: 30vh;
+    height: 35vh;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 8px 3px 5px rgb(146, 146, 146);
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 2%;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0;
+    margin-bottom: 1px;
 }
 
 .third {
+    padding: 30px;
     height: 33vh;
+}
+
+input {
+    width: 250px;
+    border: 2px solid #e5e7eb;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+    background-color: #537545;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #FFFFFF;
+    background-color: #87d369;
+}
+
+a:link {
+    color: #537545;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #7cd659;
+}
+
+label {
+    text-transform: capitalize;
+}
+
+.img-desc {
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-size: 100%;
+    color: #FFFFFF;
+}
+
+.img-desc:a:hover {
+    color: #7cd659;
 }
