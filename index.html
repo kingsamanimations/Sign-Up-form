@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up form</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="main.js"></script>
 </head>
 <body>
     <main>
         <div class="left">
-            <h1>Hi</h1>
+            <h1>WELCOME</h1>
             <div class="img-desc">
                 <p style="color: aliceblue;">Photo by <a style="color: greenyellow;" href="https://unsplash.com/photos/a-blurry-photo-of-a-city-street-at-night-B40aLA7EBOE">Jack Sparrow</a> on <a style="color: greenyellow;" href="https://unsplash.com/photos">Unsplash</a></p>
             </div>
@@ -58,16 +57,19 @@
 
                         <div class="form-div">
                             <label for="user_password">CONFIRM PASSWORD</label>
-                            <input type="password" id="user_password" name="user_password" required>
+                            <input type="password" id="confirm_password" name="confirm_password" required>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="third">
-                <button type="submit">Create Account</button>
-                <p>Already have an account? <a href="http://example.com">Log in</a></p>
+                <form id="signup-form" action="#" method="get" class="form-main-div">
+                    <button type="submit" form="signup-form">Create Account</button>
+                </form>
+                <p>Already have an account? <a style="color: darkgreen;" href="http://example.com">Log in</a></p>
             </div>
         </div>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>

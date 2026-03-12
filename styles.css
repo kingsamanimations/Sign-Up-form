@@ -128,3 +128,8 @@ label {
 .img-desc:a:hover {
     color: #7cd659;
 }
+
+h1 {
+    margin-bottom: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
